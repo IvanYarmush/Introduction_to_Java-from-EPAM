@@ -1,7 +1,6 @@
 package mainPackage;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
@@ -9,7 +8,7 @@ import java.util.TreeSet;
 
 public class Main {
 	public static void main(String[] args) {
-					// 1.Linear programms
+		// 1.Linear programms
 		
 		System.out.println("\n1. Linear Programms\n");
 		
@@ -267,6 +266,7 @@ public class Main {
 		else {
 			System.out.println("Scanner can't read integer values.");
 		}
+		scan.close();
 		
 		//Task 8
 		System.out.println("\nTask 8:");
